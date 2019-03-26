@@ -1,0 +1,11 @@
+body {
+    background-color: #32a1fc;
+    color: white;
+}
+
+.main {
+    margin-left: 20%; /* Same as the width of the sidenav */
+    font-size: 18px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+

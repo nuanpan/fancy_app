@@ -1,0 +1,48 @@
+body {
+    color: #32a1fc;
+}
+
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background-color: #d1e7fc;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+.sidenav a {
+    background-color: #d1e7fc;
+    color: #32a1fc;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: auto;
+    border: 1px #32a1fc;
+    border-style: dashed;
+    margin-bottom: 5px;
+}
+  
+.sidenav a:hover {
+    background-color: #32a1fc;
+    border: 1px #32a1fc;
+    border-style: dashed;
+    color:white;
+}
